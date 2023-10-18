@@ -834,6 +834,7 @@ a:focus {
     padding: 10px;
     margin: 5px;
     border-radius: 5px;
+	position: relative;
 }
 
 .details {
@@ -1361,3 +1362,15 @@ a:focus {
         text-align: center;
     }
 }
+
+
+
+.chevron {
+	position: absolute;
+	margin-top: 5px;
+    padding-right: 15px;
+	right: 0;
+    transform: translateY(-50%) rotate(270deg); /* Rotate the chevron to point downwards */
+    font-size: 18px; /* Adjust the font size as needed */
+}
+
