@@ -402,7 +402,7 @@ a:focus {
 
 .about .about-text p {
     font-size: 16px;
-	text-align: justify;
+    text-align: justify;
 }
 
 .about .about-text a.btn {
@@ -445,9 +445,9 @@ a:focus {
 .prof .prof-img-frame {
     display: flex;
     flex-wrap: nowrap;
-	justify-content: center;
-	height: 500px;
-	display: flex;
+    justify-content: center;
+    min-height: 500px;
+    display: flex;
     flex-wrap: wrap;
     
 }
@@ -458,7 +458,7 @@ a:focus {
     padding: 15px;
     background: #ffffff;
     border: 1px solid rgba(0, 0, 0, .07);
-	width: 100%;
+    width: 100%;
 }
 
 .prof .prof-img {
@@ -485,25 +485,25 @@ a:focus {
 .prof .prof-text h2 {
     font-size: 18px;
     font-weight: 600;
-	margin: 0;
+    margin: 0;
 }
 
 
 /* Set a specific width for images on smaller screens */
 @media (max-width: 767px) {
 	.prof .prof-text {
-    position: relative;
-    padding: 25px 15px 10px 15px;
-    text-align: center;
-    background: #ffffff;
-    margin: 0 auto; /* Center the text container */
-	width: 100%; 
+	    position: relative;
+	    padding: 25px 15px 10px 15px;
+	    text-align: center;
+	    background: #ffffff;
+	    margin: 0 auto; /* Center the text container */
+	    width: 100%; 
     }
 	
 	.prof .prof-text h2 {
-    font-size: 12px;
-    font-weight: 600;
-	margin: 0;
+	    font-size: 12px;
+	    font-weight: 600;
+	    margin: 0;
 }
 
 }
@@ -524,7 +524,7 @@ a:focus {
     padding: 10px;
     margin: 5px;
     border-radius: 5px;
-	position: relative;
+    position: relative;
 }
 
 .speech-header:after {
@@ -577,7 +577,6 @@ a:focus {
 }
 .pastevent .event {
     background:#BDD8E1;	
-	
     display: flex;
     align-items: center;
     margin-bottom: 5px;
@@ -593,24 +592,23 @@ a:focus {
     max-width: 600px;
     margin: 0 auto;
     margin-bottom: 20px;
-	margin-top: 20px;
+    margin-top: 20px;
 }
 
 
 .frame-title h2 {
-	font-size: 24;
+    font-size: 24;
     color: black;
-	text-align: center;
+    text-align: center;
     font-weight: 600;
-	padding-bottom: 8px;
-	padding-top: 8px;
-	
+    padding-bottom: 8px;
+    padding-top: 8px;
 }
 
 .event-frame {
     display: flex;
     flex-direction: column;
-	text-align: left !important;
+    text-align: left !important;
 	
 }
 
@@ -624,17 +622,17 @@ a:focus {
 
 .presenter-details h5 {
     align-items: center;
-	margin-right: 20px;
-	color: black; /* Change the color of the presenter's name */
+    margin-right: 20px;
+    color: black; /* Change the color of the presenter's name */
     font-weight: bold;
-	margin-top: 30px;
+    margin-top: 30px;
 }
 
 .presenter-details p {
     align-items: center;
-	margin-right: 20px;
-	color: black; /* Change the color of the presenter's name */
-	margin-top: -5px;
+    margin-right: 20px;
+    color: black; /* Change the color of the presenter's name */
+    margin-top: -5px;
 }
 
 .presenter-details img {
@@ -649,16 +647,16 @@ a:focus {
 
 
 .black-underligned{
-	color: black  ;
-	font-size: 20px;
-	text-decoration: underline;
-	margin-top: 10px;
+    color: black  ;
+    font-size: 20px;
+    text-decoration: underline;
+    margin-top: 10px;
 }
 
 .black{
-	color: black  ;
-	font-size: 18px;
-	margin-top: 10px;
+    color: black  ;
+    font-size: 18px;
+    margin-top: 10px;
 	
 }
 
@@ -669,12 +667,12 @@ a:focus {
 
 .event-info h3 {
     margin: 0 0 10px 0;
-	text-align: center;
+    text-align: center;
 }
 
 .event-info p {
     margin: 0;
-	text-align: justify;
+    text-align: justify;
 }
 
 .custom-frame {
@@ -684,17 +682,17 @@ a:focus {
 }
 
 .content-above-frame {
-    background: linear-gradient(to right, #f0f0f0, #ffffff); /* Set your desired gradient colors */
-    padding-bottom: 20px; /* Optional: Add padding at the bottom of the content above the frame */
-    margin-bottom: 20px; /* Optional: Add margin at the bottom of the content above the frame */
+    background: linear-gradient(to right, #f0f0f0, #ffffff); 
+    padding-bottom: 20px; 
+    margin-bottom: 20px; 
 }
 
 @media (max-width: 767.98px) {
 	
 	.event {
-        flex-direction: column; /* Change to column layout on smaller screens */
-        align-items: flex-start; /* Align items to the start of the column */
-    }
+            flex-direction: column; /* Change to column layout on smaller screens */
+            align-items: flex-start; /* Align items to the start of the column */
+        }
 
     .presenter-details {
         margin-right: 0; /* Remove margin for speaker details */
