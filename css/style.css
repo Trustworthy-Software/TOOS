@@ -823,6 +823,7 @@ a:focus {
 /*******************************/
 /******* Events *******/
 /*******************************/
+
 .speech-list {
     list-style: none;
     padding: 0;
@@ -836,6 +837,26 @@ a:focus {
     border-radius: 5px;
 	position: relative;
 }
+
+.speech-header:after {
+  content: '\002B';
+  color: black;
+  float: right;
+}
+
+.speech-header.active:after {
+    content: "\2212";
+}
+
+.speech-header.active {
+    background-color: #BDD8E1;
+}
+
+
+
+
+
+
 
 .details {
     display: none;
@@ -1373,4 +1394,6 @@ a:focus {
     transform: translateY(-50%) rotate(270deg); /* Rotate the chevron to point downwards */
     font-size: 18px; /* Adjust the font size as needed */
 }
+
+
 
